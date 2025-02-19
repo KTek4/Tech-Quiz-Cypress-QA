@@ -1,1 +1,7 @@
-// End-To-End Test for the Tech Quiz
+describe('Quiz e2e test', () => {
+  beforeEach(() => {
+    // visit the theoretically running web application
+    cy.visit('http://localhost:3000');
+  
+  });
+})
